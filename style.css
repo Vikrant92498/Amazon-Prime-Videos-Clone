@@ -1,0 +1,233 @@
+*{
+    text-decoration: none;
+    list-style:none;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+header{
+    background-color: #0f171e;
+    position: relative;
+}
+header #self-address{
+    position: absolute;
+}
+.logo_img{
+    width: 110px;
+    height: 37px;
+    margin-left: 49px;
+    margin-top: 18px;  
+    margin-bottom: 18px;
+}
+header nav{
+    position: absolute;
+    left: 12%;
+    top: 1%;
+    width:82vw;
+}
+nav li{
+    display: inline;
+    margin: 10px;
+}
+nav li a{
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.9);
+}
+nav{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+#main-box{
+    width: 98.7vw;
+    height:100vh;
+    background-image: linear-gradient(to right, #000 40%, transparent 58%), url(assets/images/top_bg_img.jpg);
+    background-position: right top;
+}
+.adjust-text h1{
+    font-weight: 500;
+    font-size: 40px;
+}
+.adjust-text p{
+    padding-top: 20px;
+    font-weight: 100;
+    font-size: 21px;
+    
+}
+#main-box #welcome{
+    padding-top: 45px;
+    margin-left: 70px;
+    padding-right: 800px;
+}
+.adjust-text a{
+    display: block;
+    margin: 40px;
+    padding-top: 15px;
+    padding-left: 22px;
+}
+
+#rental-movie{
+    width: 98.7vw;
+    height:100vh;
+    background-image: linear-gradient(to right, #000 40%, transparent 58%), url(assets/images/bg_img_2.jpg);
+    background-position: right top;
+}
+#rental-movie #contain{
+    padding-top: 45px;
+    margin-left: 70px;
+    padding-right: 800px;
+}
+#fire-tv-stick{
+    position: relative;
+    background-image: linear-gradient(to left, #000 40%, transparent 58%), url(assets/images/bg_img_3.jpg);
+    background-position-x: left;
+    height: 100vh;
+}
+#fire-tv-stick #contain{
+    position: absolute;
+    float: right;
+    right: 98px;
+    left: 752px;
+    top:45px
+}
+#family-friendly{
+    position: relative;
+    background-image: linear-gradient(to right, #000 40%, transparent 58%), url(assets/images/bottom_bg_img.jpg);
+    background-position-x: right;
+    height: 100vh;
+}
+
+#family-friendly #contain-info{
+    position: absolute;
+    left: 98px;
+    right:752px;
+    top:45px
+}
+.right-side li{
+    float: right;
+}
+.dropbtn {
+    background-color:transparent;
+    color: white;
+    padding: 2px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  ul{
+    display: inline;
+  }
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: -40%;
+    background-color: rgb(18, 22, 58);
+    min-width: 187px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: rgba(100, 105, 150, 0.8);}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+  #account-icon{
+    background-image: url(assets/images/account-icon.svg);
+    background-position: 0;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: block;
+    height: 20px;
+    opacity: .7;
+    text-indent: -9999px;
+    -webkit-transition: opacity .2s ease-in-out;
+    -o-transition: opacity .2s ease-in-out;
+    transition: opacity .2s ease-in-out;
+    width: 20px;
+  }
+  #language-icon{
+    background-image: url(assets/images/language.svg);
+    background-position: 0;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: block;
+    height: 20px;
+    opacity: .7;
+    text-indent: -9999px;
+    -webkit-transition: opacity .2s ease-in-out;
+    -o-transition: opacity .2s ease-in-out;
+    transition: opacity .2s ease-in-out;
+    width: 20px;
+  }
+  #search-icon{
+    background-image: url(assets/images/search.svg);
+    background-position: 0;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: block;
+    height: 20px;
+    opacity: .7;
+    text-indent: -9999px;
+    -webkit-transition: opacity .2s ease-in-out;
+    -o-transition: opacity .2s ease-in-out;
+    transition: opacity .2s ease-in-out;
+    width: 20px;
+  }
+  #search-icon:hover{
+    opacity:1;
+  }
+  #account-icon:hover{
+    opacity: 1;
+  }
+#right-half{
+    position: absolute;
+    top: -44%;
+    right: 0;
+}
+#right-half #try_for_free{
+    width: 125px;
+    height: 30px;
+    position: absolute;
+    right: 150px;
+    padding-top: 8px;
+    padding-left: 18px;
+    top: 4px;
+    color: white;
+    background-color: #0f79af;
+    border-radius: 6px;
+    transition: all 0.4s ease-in-out;
+}
+#right-half #try_for_free:hover{
+    background-color: #13a1e7;
+    cursor: pointer;
+}
+.arrow{
+    display: inline-block;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 21px;
+    background-color: white;
+    transform: rotate(45deg);
+    background:linear-gradient(135deg,black ,50%,white);
+}
